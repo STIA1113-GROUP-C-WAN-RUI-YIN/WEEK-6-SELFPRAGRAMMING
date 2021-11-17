@@ -27,7 +27,7 @@ public class BlockStatement {
             balance1 = balance - amount;
         System.out.println("1. Acct new balance = " + balance1);
         
-        //block statement - balance=1000-500
+        //block statement - balance=1500-500
         if  ((amount <= 1000.0) && (amount <= balance)){   
             balance2 = balance - amount;
         System.out.println("2. Acct new balance = " + balance2);
