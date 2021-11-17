@@ -16,11 +16,23 @@ public class BlockStatement {
 	            balance = balance - amount;
 	    System.out.println("1. Acct new balance = " + balance);
 	        
-	    //block statement - balance=1000-500
+	    //block statement - balance=1000-500 (not true)
 	    if  ((amount <= 1000.0) && (amount <= balance)){   
 	            balance = balance - amount;
 	    System.out.println("2. Acct new balance = " + balance);
 	        }
+	 
+	    //block statement - balance=1500-500 (true)
+	    if((amount <= 1000.0) && (amount <= balance)){
+        	balance = balance + 500;
+        	 System.out.println("3. Acct new balance = " + balance);
+        }
+	    
+	    
+	    
+	    
+	    
+	    
         // if only run this part below, can get same output
         //single statement - balance=1500-500
         if  ((amount <= 1000.0) && (amount <= balance))  
