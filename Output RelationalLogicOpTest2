@@ -1,0 +1,12 @@
+Please insert a day. 
+12
+Please insert a month. 
+10
+Please insert a year. 
+1432
+Your input date is : 12/10/1432
+true
+Your input date is before or on 15 October 1582.
+false
+true
+true
